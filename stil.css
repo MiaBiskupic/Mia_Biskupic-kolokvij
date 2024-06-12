@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("slike/pozadina.jpg"); 
+	 background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+	 height: 100%;
+  background-position: center;
+  background-size: cover;
+            margin: 0;
+            align-items: center;
+            text-align: center;
+			
+}
+
+
+header {
+    background-color: #ab47bc; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+nav {
+    background-color: mediumorchid; 
+    overflow: hidden;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+	display: inline;
+}
+
+nav a:hover {
+    background-color: #00FA9A; 
+}
+
+
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    color: black;
+font-family: "MiaBiskupic",Arial, sans-serif;	
+}
+
+p {
+    line-height: 2;
+	margin: 10px;
+	position: fixed;
+    left: 20px;
+    bottom: 30px;
+	border-top: 1px solid green;
+	/*border-left: 1px solid green;
+	border-right: 1px solid green;*/
+	border-bottom: 1px solid green;	
+	color: white;
+}
+.return{
+	background-color: green;
+}
+
+.link{
+	color: #D8BFD8;
+}
+aside {
+    background-color: #c8e6c9; 
+    padding: 15px;
+    margin: 10px 0;
+}
+
+aside h2 {
+    color: #2e7d32; 
+}
+
+
+footer {
+    background-color: #ab47bc; 
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+button {
+    background-color: #66bb6a; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover 
+    background-color: #43a047; 
+}
+
+
+a {
+    color: pink;
+}
+
+a:visited {
+  color: white;
+}
+a:hover {
+    color: #191970;
+}
+nav ul {	/*centriranje*/
+			padding:20px; 
+			margin-left: auto; 
+			margin-right:auto;  
+			width: 400px;
+			} 
+nav	li {	display:inline; /*prikaz u jednom redu*/
+			background-color: 	#3CB371;
+			padding:20px;
+			border: 1px solid Green;
+		}
+nav	li:active {background-color: #98FB98;}  /*kada kliknemo na li mijenja se boja*/
+		
+nav	li a {	color: 	white; 
+			font-family: "CabinSketch", sans-serif; 
+			/*font-family: "Montserrat", sans-serif; */
+			text-transform: uppercase;
+			}
+nav	li a:link {text-decoration: green;}
+nav	li a:hover {text-decoration: none;}
+
+h2, h4 {
+	color: white;
+	font-weight: bold;
+}
